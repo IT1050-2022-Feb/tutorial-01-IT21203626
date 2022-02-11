@@ -5,7 +5,22 @@
 #include <stdio.h>
 
 int main() {
+
+  int a , b , total;
+  float average;
+
+  printf("Enter the first Mark = ");
+  scanf("%d", &a);
+
+  printf("Enter the second Mark = ");
+  scanf("%d", &b);
+
+  total = a + b;
+  average =(float)total/2;
+
+  printf("Average Mark = %.2f", average );
   
   return 0;
+  
 }
 
